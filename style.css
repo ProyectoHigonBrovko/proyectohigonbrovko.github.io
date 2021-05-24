@@ -16,6 +16,11 @@ nav {
 	text-align: center;
 }
 
+main{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 nav ul li{
 	list-style-type:none;
 	display:inline-block;
