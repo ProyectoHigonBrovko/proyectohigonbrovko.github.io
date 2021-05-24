@@ -27,6 +27,16 @@ a{
 	text-decoration: none;
 }
 
+footer {
+	background-color: grey;
+	text-align: center;
+}
+
+time {
+	background-color: grey;
+	text-align: center;
+}
+
 /*  colore 
 
 background cajas #34495E;
