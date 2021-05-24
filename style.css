@@ -2,7 +2,7 @@ body{
 	margin-left: 5%;
 	margin-right: 5%;
     	background-color: #85929E;
-    	text-align: center;
+    	text-align: left;
 }
 
 h1{
@@ -17,8 +17,8 @@ nav {
 }
 
 main{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 nav ul li{
