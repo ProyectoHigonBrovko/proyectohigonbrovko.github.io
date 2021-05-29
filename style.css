@@ -2,18 +2,24 @@ body{
 	margin-left: 5%;
 	margin-right: 5%;
     	background-color: #85929E;
-    	text-align: left;
-	text-align:justify;
-
+    	text-align: justify;
 }
 
 h1{
-	color: red;
-	text-decoration: underline;
+	text-decoration: none;
 	padding: 10px;
 }
 
+header {
+	background-color: grey;
+	text-align: center;
+	margin: 2%;
+	padding: 5px;
+}
+
 nav {
+	margin-left: 7%;
+	margin-right: 7%;
 	background-color: grey;
 	text-align: center;
 }
@@ -21,13 +27,12 @@ nav {
 main{
 	margin-left: 10%;
 	margin-right: 10%;
-	word-wrap: break-word;
 }
 
 nav ul li{
 	list-style-type:none;
 	display:inline-block;
-	margin: 5%;
+	margin: 3%;
 	padding: 5px;
 	background-color: blue;
 }
@@ -40,16 +45,10 @@ a{
 footer {
 	background-color: grey;
 	text-align: center;
+	margin: 2%;
+	padding: 5px;
 }
 
-time {
-	background-color: grey;
-	text-align: center;
-}
-
-pre {
-	text-align:justify;
-}
 
 /*  colores
 
