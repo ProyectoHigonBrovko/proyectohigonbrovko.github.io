@@ -23,17 +23,47 @@
                 </div>
         </nav>
         <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis, volutpat et auctor id, blandit id justo. Etiam porttitor convallis dui interdum faucibus. Nam vitae consequat est. Cras in eros arcu. Duis purus mi, fringilla nec euismod nec, hendrerit eget arcu. Sed et interdum nulla. Etiam vestibulum turpis ac urna euismod, eget iaculis enim hendrerit. Proin quis sem mi. Pellentesque eget blandit nulla, sit amet vehicula velit. Ut ac erat vitae quam dapibus rutrum. Integer cursus ultrices justo, in tincidunt diam eleifend sed. Sed ipsum mauris, elementum sed volutpat sed, aliquam sit amet nisi. Duis id aliquet risus. Maecenas lorem sem, rutrum pretium scelerisque ac, pulvinar volutpat risus. Praesent erat arcu, iaculis eu gravida in, fermentum eget massa.</p>
+        <p>Git es un sistema de control de versiones(añadir enlace a página interna de la web con explicación de SCV). La principal diferencia entre Git y cualquier otro SCV, es la forma en la que maneja sus datos.</p>
 
-        <p>Curabitur neque urna, pretium at facilisis vel, mollis quis sapien. Vivamus id placerat magna. Donec tristique et turpis sed porttitor. Cras viverra ante dapibus, pulvinar augue ac, maximus ante. Nunc vestibulum luctus dolor eu volutpat. Pellentesque quis leo fringilla, convallis elit a, ultrices erat. Quisque quis lobortis leo. Sed et urna fermentum, sollicitudin enim fermentum, imperdiet tellus. Aenean a condimentum metus, vel maximus est. Integer ante turpis, volutpat sed augue ut, vestibulum consectetur elit.</p>
+        <p>Convencionalmente, un SCV almacena la información como una lista de cambios en los archivos, mientras que Git maneja sus datos como un conjunto de copias. Es decir, cada vez que confirmamos un cambio y guardamos, almacena una “foto” del aspecto de los archivos en ese momento y guarda una referencia a la foto. Para ahorrar espacio, los archivos que no han sido modificados, no necesitan volver a ser guardados.</p>
 
-        <p> gdsdfasdf pretium nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla sit amet justo quis nisi luctus fringilla. Phasellus egestas sit amet nulla at placerat. Ut ac est nisl. Fusce tincidunt quis nulla et tincidunt. Sed tristique magna sed nulla pulvinar luctus. Maecenas urna tortor, rhoncus non arcu vitae, pellentesque vulputate arcu. Aenean pulvinar, ligula eu dapibus condimentum, purus purus commodo purus, in iaculis libero elit sed purus. Fusce a molestie tellus. Etiam tellus ipsum, elementum sed justo vehicula, fringilla placerat neque.</p>
+        <p>La mayoria de las operaciones en Git, sólo necesitan archivos y recursos locales, por lo que las operaciones aparecen inmediatas y no necesita conectarse al servidor para obtener la historia del proyecto. Los datos son leidos de una base de datos local.</p>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis turpis, volutpat et auctor id, blandit id justo. Etiam porttitor convallis dui interdum faucibus. Nam vitae consequat est. Cras in eros arcu. Duis purus mi, fringilla nec euismod nec, hendrerit eget arcu. Sed et interdum nulla. Etiam vestibulum turpis ac urna euismod, eget iaculis enim hendrerit. Proin quis sem mi. Pellentesque eget blandit nulla, sit amet vehicula velit. Ut ac erat vitae quam dapibus rutrum. Integer cursus ultrices justo, in tincidunt diam eleifend sed. Sed ipsum mauris, elementum sed volutpat sed, aliquam sit amet nisi. Duis id aliquet risus. Maecenas lorem sem, rutrum pretium scelerisque ac, pulvinar volutpat risus. Praesent erat arcu, iaculis eu gravida in, fermentum eget massa.</p>
+        <p><br>-Funcionamiento de Git-</br>
+        Todo en Git es verificado mediante un código de comprobacion, lo que significa que no se puede cambiar nada sin que este se entere. La forma en la que lo realiza, es una cadena de 40 caracteres Hexadecimales hash SHA-1.</p>
         
-        <p>Curabitur neque urna, pretium at facilisis vel, mollis quis sapien. Vivamus id placerat magna. Donec tristique et turpis sed porttitor. Cras viverra ante dapibus, pulvinar augue ac, maximus ante. Nunc vestibulum luctus dolor eu volutpat. Pellentesque quis leo fringilla, convallis elit a, ultrices erat. Quisque quis lobortis leo. Sed et urna fermentum, sollicitudin enim fermentum, imperdiet tellus. Aenean a condimentum metus, vel maximus est. Integer ante turpis, volutpat sed augue ut, vestibulum consectetur elit.</p>
         
-        <p>In in pretium nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla sit amet justo quis nisi luctus fringilla. Phasellus egestas sit amet nulla at placerat. Ut ac est nisl. Fusce tincidunt quis nulla et tincidunt. Sed tristique magna sed nulla pulvinar luctus. Maecenas urna tortor, rhoncus non arcu vitae, pellentesque vulputate arcu. Aenean pulvinar, ligula eu dapibus condimentum, purus purus commodo purus, in iaculis libero elit sed purus. Fusce a molestie tellus. Etiam tellus ipsum, elementum sed justo vehicula, fringilla placerat neque.</p>
+        <p><br>Git trabaja con tres estados: </br>
+            <br>Confirmado: Datos almacenados de forma segura en la base de datos local.</br>
+            <br>Modificado: Datos modificados pero no confirmados a la base de datos.</br>
+            <br>Preparado: Archivo modificado en la versión actual para actualizar en la próxima confirmación.</br></p>
+        
+        <p><br>De este modo se define la forma de trabajar como usuario al trabajar con Git.</br>
+            <br>Modificas los archivos en tu directorio de trabajo.</br>
+            <br>Preparas los archivos añadiendolos al área de preparación.</br>
+            <br>Confirmas los archivos que están en el área de preparación y los almacenas en tu directorio Git.</br></p>
+
+        <p><br>-Comandos de Git-</br>
+            <br>Para añadir el repositorio GIT, utilizaremos el comando</br>
+                <br>git init</br>
+
+            <br>Para añadir al estado de modificado, utilizaremos el comando</br>
+                <br>git add nombrerepositorio</br>
+
+            <br>Para observar el estado del repositorio, utilizaremos el comando</br>
+                <br>git status</br>
+
+            <br>Para confirmar los archivos añadidos, utilizaremos el comando</br>
+                <br>git commit -m ‘NombreDelCommit’</br>
+
+            <br>Para observar las diferencias entre los ultimos commits, utilizaremos el comando</br>
+                <br>git show</br>
+
+            <br>Para observar las diferencias entre dos commits especificos, utilizaremos el comando</br>
+                <br>git diff indexcommit1 indexcommit2</br>
+
+
+
     </main>
         <footer>
         <p>Esto es una página de prueba para la práctica de 1º de DAW</p>
