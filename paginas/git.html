@@ -32,36 +32,38 @@
 
        <p>-Funcionamiento de Git-
        <p>Todo en Git es verificado mediante un código de comprobacion, lo que significa que no se puede cambiar nada sin que este se entere. La forma en la que lo realiza, es una cadena de 40 caracteres Hexadecimales hash SHA-1.
+	
+       <p><dl><dt>Git trabaja con tres estados:
+		<dd><br>Confirmado: Datos almacenados de forma segura en la base de datos local.
+		<dd><br>Modificado: Datos modificados pero no confirmados a la base de datos.
+		<dd><br>Preparado: Archivo modificado en la versión actual para actualizar en la próxima confirmación. 
+	</dt></dl>
+		
+       <p><dl><dt> De este modo se define la forma de trabajar como usuario al trabajar con Git.
+		<br><dd>1.Modificas los archivos en tu directorio de trabajo.</dd>
+		<br><dd>2.Preparas los archivos añadiendolos al área de preparación.</dd>
+		<br><dd>3.Confirmas los archivos que están en el área de preparación y los almacenas en tu directorio Git.</dd>
+	</dt></dl>
 
-       <p>Git trabaja con tres estados:
-		<br>Confirmado: Datos almacenados de forma segura en la base de datos local.
-		<br>Modificado: Datos modificados pero no confirmados a la base de datos.
-		<br>Preparado: Archivo modificado en la versión actual para actualizar en la próxima confirmación. 
+       <p><dl><dt>-Comandos de Git- 
+		<dd><br>-Para añadir el repositorio GIT, utilizaremos el comando</dd>
+		<dd><br>git init </dd>
+	</dt></dl>
 
-       <p> De este modo se define la forma de trabajar como usuario al trabajar con Git.
-		<br>1.Modificas los archivos en tu directorio de trabajo.
-		<br>2.Preparas los archivos añadiendolos al área de preparación.
-		<br>3.Confirmas los archivos que están en el área de preparación y los almacenas en tu directorio Git.
+       <p><dd>-Para añadir al estado de modificado, utilizaremos el comando</dd>
+	<br><dd>git add nombrerepositorio</dd>
 
+       <p><dd>-Para observar el estado del repositorio, utilizaremos el comando</dd>
+	<br><dd>git status </dd>
 
-       <p>-Comandos de Git- 
-		<br>-Para añadir el repositorio GIT, utilizaremos el comando
-		<br>git init 
+       <p><dd>-Para confirmar los archivos añadidos, utilizaremos el comando</dd>
+	<dd><br>git commit -m ‘NombreDelCommit’ </dd>
 
-       <p> -Para añadir al estado de modificado, utilizaremos el comando
-	<br>git add nombrerepositorio
-
-       <p>-Para observar el estado del repositorio, utilizaremos el comando
-	<br>git status 
-
-       <p>-Para confirmar los archivos añadidos, utilizaremos el comando
-	<br>git commit -m ‘NombreDelCommit’ 
-
-       <p>-Para observar las diferencias entre los ultimos commits, utilizaremos el comando
-	<br>git show
+       <p><dd>-Para observar las diferencias entre los ultimos commits, utilizaremos el comando</dd>
+	<br><dd>git show </dd>
 	       
-       <p>-Para observar las diferencias entre dos commits especificos, utilizaremos el comando
-	<br>git diff indexcommit1 indexcommit2
+       <p><dd>-Para observar las diferencias entre dos commits especificos, utilizaremos el comando</dd>
+	<br><dd>git diff indexcommit1 indexcommit2 </dd>
 
 
 
