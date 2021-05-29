@@ -4,6 +4,7 @@ body{
     	background-color: #85929E;
     	text-align: left;
 	text-align:justify;
+	word-wrap: break-word;
 }
 
 h1{
@@ -47,6 +48,7 @@ time {
 
 pre {
 	text-align:justify;
+	word-wrap: break-word;
 }
 
 /*  colores
