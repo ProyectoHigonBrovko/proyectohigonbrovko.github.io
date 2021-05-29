@@ -4,7 +4,7 @@ body{
     	background-color: #85929E;
     	text-align: left;
 	text-align:justify;
-	word-wrap: break-word;
+
 }
 
 h1{
@@ -21,6 +21,7 @@ nav {
 main{
 	margin-left: 10%;
 	margin-right: 10%;
+	word-wrap: break-word;
 }
 
 nav ul li{
@@ -48,7 +49,6 @@ time {
 
 pre {
 	text-align:justify;
-	word-wrap: break-word;
 }
 
 /*  colores
