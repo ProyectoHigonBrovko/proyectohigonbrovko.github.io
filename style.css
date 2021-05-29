@@ -44,7 +44,11 @@ time {
 	text-align: center;
 }
 
-/*  colore 
+pre {
+	text-align:justify;
+}
+
+/*  colores
 
 background cajas #34495E;
 background body  #85929E;
