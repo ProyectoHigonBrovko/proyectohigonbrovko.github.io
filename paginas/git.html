@@ -24,44 +24,44 @@
         </nav>
         <main>
         <pre>
-        <p>Git es un sistema de control de versiones(añadir enlace a página interna de la web con explicación de SCV). La principal diferencia entre Git y cualquier otro SCV, es la forma en la que maneja sus datos.</p>
+   Git es un sistema de control de versiones(añadir enlace a página interna de la web con explicación de SCV). La principal diferencia entre Git y cualquier otro SCV, es la forma en la que maneja sus datos.
 
-        <p>Convencionalmente, un SCV almacena la información como una lista de cambios en los archivos, mientras que Git maneja sus datos como un conjunto de copias. Es decir, cada vez que confirmamos un cambio y guardamos, almacena una “foto” del aspecto de los archivos en ese momento y guarda una referencia a la foto. Para ahorrar espacio, los archivos que no han sido modificados, no necesitan volver a ser guardados.</p>
+Convencionalmente, un SCV almacena la información como una lista de cambios en los archivos, mientras que Git maneja sus datos como un conjunto de copias. Es decir, cada vez que confirmamos un cambio y guardamos, almacena una “foto” del aspecto de los archivos en ese momento y guarda una referencia a la foto. Para ahorrar espacio, los archivos que no han sido modificados, no necesitan volver a ser guardados.
 
-        <p>La mayoria de las operaciones en Git, sólo necesitan archivos y recursos locales, por lo que las operaciones aparecen inmediatas y no necesita conectarse al servidor para obtener la historia del proyecto. Los datos son leidos de una base de datos local.</p>
-        
-        <p><br>-Funcionamiento de Git-</br>
-        Todo en Git es verificado mediante un código de comprobacion, lo que significa que no se puede cambiar nada sin que este se entere. La forma en la que lo realiza, es una cadena de 40 caracteres Hexadecimales hash SHA-1.</p>
-        
-        
-        <p><br>Git trabaja con tres estados: </br>
-            <br>Confirmado: Datos almacenados de forma segura en la base de datos local.</br>
-            <br>Modificado: Datos modificados pero no confirmados a la base de datos.</br>
-            <br>Preparado: Archivo modificado en la versión actual para actualizar en la próxima confirmación.</br></p>
-        
-        <p><br>De este modo se define la forma de trabajar como usuario al trabajar con Git.</br>
-            <br>Modificas los archivos en tu directorio de trabajo.</br>
-            <br>Preparas los archivos añadiendolos al área de preparación.</br>
-            <br>Confirmas los archivos que están en el área de preparación y los almacenas en tu directorio Git.</br></p>
+La mayoria de las operaciones en Git, sólo necesitan archivos y recursos locales, por lo que las operaciones aparecen inmediatas y no necesita conectarse al servidor para obtener la historia del proyecto. Los datos son leidos de una base de datos local.
 
-        <p><br>-Comandos de Git-</br>
-            <br>Para añadir el repositorio GIT, utilizaremos el comando</br>
-                <br>git init</br>
+-Funcionamiento de Git-
+Todo en Git es verificado mediante un código de comprobacion, lo que significa que no se puede cambiar nada sin que este se entere. La forma en la que lo realiza, es una cadena de 40 caracteres Hexadecimales hash SHA-1.
 
-            <br>Para añadir al estado de modificado, utilizaremos el comando</br>
-                <br>git add nombrerepositorio</br>
+Git trabaja con tres estados:
+	Confirmado: Datos almacenados de forma segura en la base de datos local.
+	Modificado: Datos modificados pero no confirmados a la base de datos.
+	Preparado: Archivo modificado en la versión actual para actualizar en la próxima confirmación. 
 
-            <br>Para observar el estado del repositorio, utilizaremos el comando</br>
-                <br>git status</br>
+De este modo se define la forma de trabajar como usuario al trabajar con Git.
+Modificas los archivos en tu directorio de trabajo.
+Preparas los archivos añadiendolos al área de preparación.
+Confirmas los archivos que están en el área de preparación y los almacenas en tu directorio Git.
 
-            <br>Para confirmar los archivos añadidos, utilizaremos el comando</br>
-                <br>git commit -m ‘NombreDelCommit’</br>
 
-            <br>Para observar las diferencias entre los ultimos commits, utilizaremos el comando</br>
-                <br>git show</br>
+-Comandos de Git- 
+Para añadir el repositorio GIT, utilizaremos el comando
+	git init 
 
-            <br>Para observar las diferencias entre dos commits especificos, utilizaremos el comando</br>
-                <br>git diff indexcommit1 indexcommit2</br>
+Para añadir al estado de modificado, utilizaremos el comando
+git add nombrerepositorio
+
+Para observar el estado del repositorio, utilizaremos el comando
+git status 
+
+Para confirmar los archivos añadidos, utilizaremos el comando
+git commit -m ‘NombreDelCommit’ 
+
+Para observar las diferencias entre los ultimos commits, utilizaremos el comando
+	git show
+Para observar las diferencias entre dos commits especificos, utilizaremos el comando
+	git diff indexcommit1 indexcommit2
+
     </pre>
 
 
