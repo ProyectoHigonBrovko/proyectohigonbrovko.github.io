@@ -49,6 +49,12 @@ footer {
 	padding: 5px;
 }
 
+#floated_right{
+    float: right;
+    background: red;
+    margin: 10px;
+}
+
 
 /*  colores
 
